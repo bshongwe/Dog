@@ -1,0 +1,47 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+
+# Visual Studio / Rider IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.iml
+*.swp
+*.swo
+
+# ReSharper / Rider
+.DotSettings
+.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Build output directories
+Debug/
+Release/
+
+# Runtime files
+*.runtimeconfig.json
+*.deps.json
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# User-specific files
+local.settings.json
+.env
+.env.local
