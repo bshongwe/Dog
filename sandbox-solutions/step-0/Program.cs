@@ -15,9 +15,10 @@ class Program
         // Step 5: Rank breeds here
         // Step 6: Print output here
 
+        Console.WriteLine("Hello, Dog Breeds!");
         return 0;
     }
 }
 
-// Step 3: We will define this record fully later
+// Step 1: BreedInfo Record
 record BreedInfo(string Name, double? MaxLife, double? MaxFemaleWeight);
